@@ -7,7 +7,13 @@ This repo has two button examples for a Storybook component library.
 
 ## Run Storybook
 
-Run storybook with:
+First install the dependencies:
+
+```bash
+npm i
+```
+
+Then run storybook with:
 
 ```bash
 npm run storybook
