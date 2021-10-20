@@ -1,0 +1,14 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs";
+import buttonText from "./button-text.html";
+
+<Meta title="Components/Button mit Markdwon Doc" />
+
+# Button
+
+Im MDX Format kann man Stories mit Markdown dokumentieren.
+
+<!-- Leider muss HTML immer als String eingefügt werden bei MDX Stories. Deshalb ist es hier mal so gelöst :)  -->
+
+<Canvas>
+  <Story name="negative">{`${buttonText}`}</Story>
+</Canvas>
